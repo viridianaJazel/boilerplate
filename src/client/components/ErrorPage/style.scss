@@ -1,0 +1,15 @@
+.error-page{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  .error-page_title{
+    color: #29164B;
+    font-size: 2rem;
+  }
+
+  .error-page_description{
+    color: #29164B;
+    font-weight: 300;
+  }
+}

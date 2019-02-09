@@ -1,0 +1,48 @@
+// Variables
+$header-background-color: #000;
+$header-text-color: #fff;
+$header-text-active: #fff;
+
+header {
+  // Text
+  font-weight: 500;
+  letter-spacing: .0125em;
+  color: $header-text-color;
+
+  // Background
+  background-color: $header-background-color;
+  -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.5);
+          box-shadow: 0 2px 4px rgba(0,0,0,.5);
+
+  width: 100%;
+  height: 72px;
+  padding-left: 10px;
+  padding-right: 10px;
+  z-index: 4;
+
+  display: -webkit-box !important;
+
+  display: -ms-flexbox !important;
+
+  display: flex !important;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+
+  .brand{
+    font-size: 1.25rem;
+
+    a{
+      color: $header-text-active !important;
+    }
+  }
+}

@@ -1,0 +1,5 @@
+
+/* eslint-disable */
+{
+  watch: ["src/"]
+}

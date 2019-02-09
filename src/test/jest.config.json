@@ -1,0 +1,9 @@
+{
+  "testRegex": "((\\.|/*.)(test))\\.js?$",
+  "rootDir": "..",
+  "moduleNameMapper": {
+    "^.+\\.(css|scss)$": "<rootDir>/test/mocks/styleMocks.js"
+  },
+  "setupTestFrameworkScriptFile": "<rootDir>/test/setupTests.js",
+  "verbose": true
+}

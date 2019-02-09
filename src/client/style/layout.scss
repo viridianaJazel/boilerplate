@@ -1,0 +1,68 @@
+@import './colors.scss';
+
+html, body, .wrapper, .container{
+  height: 100vh;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Roboto,sans-serif !important;
+  font-size: 14px;
+  background-color: $background-color-primary;
+  color: $text-color-primary;
+  -o-text-overflow: ellipsis;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+h2{
+  -webkit-font-smoothing: antialiased;
+  line-height: 2rem !important;
+  text-decoration: inherit;
+  text-transform: inherit;
+  font-size: 1.5rem !important;
+  letter-spacing: normal;
+}
+
+a{
+  color: #5c5de6 !important;
+}
+
+button.custom-button{
+  background: #673AB7 !important;
+
+  &.round{
+    width: 45px !important;
+    height: 45px !important;
+  }
+}
+
+/* Layout */
+.container-fluid{
+  margin: 0 !important;
+  padding: 0 !important;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 72px 1fr 60px;
+  grid-gap: 1em;
+
+  main {
+    height: 100vh;
+  }
+
+}
+
+a {
+  color: $text-color-primary;
+  text-decoration: none;
+  text-decoration: inherit;
+  text-transform: inherit;
+  cursor: pointer;
+}
+
+
+/*Section*/
+section{
+  //padding: 20px;
+}
